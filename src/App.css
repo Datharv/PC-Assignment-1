@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.inner-box{
+  height: 500px;
+  width: 600px;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.horizontal-btn{
+  width: 500px;
+  height: 50px;
+  
+}
+
+button {
+  background-color: rgb(58, 58, 58);
+    border: none;
+    color: white;
+}
+.vertical-btn{
+  height: 500px;
+  width: 50px;
+}
+
+.boundary-box{
+height: 500px;
+  width: 500px;
+  background-color: rgb(255, 250, 203);
+}
+
+.moving-div{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  background-color:red;
+  transition: all .5s;
+}
+
+button:disabled{
+  color: grey;
+  background-color: rgb(85, 85, 85);
+
+}
